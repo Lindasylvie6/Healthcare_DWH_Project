@@ -6,6 +6,8 @@ This project demonstrates the design of an end-to-end healthcare data pipeline u
 
 The project emphasizes **data integration, data quality validation, and troubleshooting**, reflecting core data engineering responsibilities such as **building, optimizing, and maintaining scalable data pipelines**. 
 
+This project simulates a real-world data engineering workflow from ingestion to analytics.
+
 ---
 
 ### 🧱 Data Architecture (Medallion Model)
@@ -60,7 +62,7 @@ The pipeline is orchestrated using Azure Data Factory, which manages ingestion, 
 
 - **Azure Data Factory (Concepts)** : Pipeline orchestration, data ingestion, and transformation  
 - **SQL** : Data transformation, validation, and modeling  
-- **Tableau Public** : Data visualization and reporting  
+- **Power BI** : Data visualization and reporting  
 - **Draw.io** : Data architecture and pipeline diagrams  
 - **Notion** : Project planning, task tracking, and documentation  
 
@@ -72,6 +74,6 @@ This project is licensed under the [MIT LICENSE](LICENSE). You are free to use, 
 ---
 ### 👤 About me
 
-Hi there! I 'm **Sylvie Linda**. I am a data professional with experience in data analysis and a strong interest in data engineering. I enjoy working with data pipelines, transforming raw data into meaningful insights, and improving data quality and efficiency.
+Hi there! I'm **Sylvie Linda**. I am a data professional with experience in data analysis and a strong interest in data engineering. I enjoy working with data pipelines, transforming raw data into meaningful insights, and improving data quality and efficiency.
 
 This project reflects my focus on building scalable data solutions and applying best practices in data engineering, including ETL processes, data modeling, and pipeline design.
