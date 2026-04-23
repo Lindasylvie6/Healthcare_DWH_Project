@@ -1,4 +1,3 @@
-/*
 =============================================================
 BRONZE LAYER – RAW DATA INGESTION
 =============================================================
@@ -41,4 +40,3 @@ Notes:
 - This layer is designed to be populated using Azure Data Factory (ADF) Copy Activity
 
 =============================================================
-*/
