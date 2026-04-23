@@ -1,17 +1,17 @@
-=============================================================
-BRONZE LAYER – RAW DATA INGESTION
-=============================================================
 
-Description:
+# BRONZE LAYER – RAW DATA INGESTION
+
+
+#### Description:
 This script creates the Bronze layer of the healthcare data warehouse using a medallion architecture. 
 The Bronze layer is responsible for ingesting and storing raw data from source systems with minimal transformation.
 
-Purpose:
+#### Purpose:
 - Preserve raw source data for traceability and auditing
 - Support downstream data cleaning and transformation in the Silver layer
 - Enable scalable data ingestion for multiple healthcare datasets
 
-Key Features:
+#### Key Features:
 - One raw table per source file (patients, encounters, claims, etc.)
 - Minimal transformation to maintain source fidelity
 - Metadata tracking for ingestion:
@@ -19,12 +19,12 @@ Key Features:
     • source_file_name (file lineage)
     • load_datetime (ingestion timestamp)
 
-Design Approach:
+#### Design Approach:
 - All columns are stored as VARCHAR to avoid data loss during ingestion
 - Data type standardization and validation will be handled in the Silver layer
 - Tables follow a consistent naming convention: <entity>_raw
 
-Datasets Included:
+#### Datasets Included:
 - patients.csv (demographics)
 - encounters.csv (visits and admissions)
 - claims_and_billing.csv (billing and payments)
@@ -35,8 +35,8 @@ Datasets Included:
 - medications.csv (prescriptions)
 - providers.csv (provider registry)
 
-Notes:
+#### Notes:
 - Existing Bronze tables are dropped and recreated to support full reloads
 - This layer is designed to be populated using Azure Data Factory (ADF) Copy Activity
 
-=============================================================
+
