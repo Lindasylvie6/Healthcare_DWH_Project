@@ -7,10 +7,23 @@ I first checked the Power BI model, column relationships, and DAX logic. After c
 
 Using SQL validation queries, I analyzed `visit_type`, `encounter_id`, and `readmitted_flag` in the Silver and Gold layers. The investigation showed that the source data contained `readmitted_flag = TRUE` for `Outpatient` and `Telehealth` visits, which is not clinically appropriate because readmission logic should only apply to inpatient encounters.
 
-The corrected inpatient-only readmission rate was **19.8%**, which is much more reasonable for healthcare reporting.
+The corrected inpatient-only readmission rate was **16%**, which is much more reasonable for healthcare reporting.
 
 This validation improved the accuracy of the Gold Layer KPI logic and ensured that the Power BI dashboard reflects clinically meaningful metrics.
 */
+/* Identified wrong metric in Power BI
+        ↓
+Traced it back to gold layer SQL
+        ↓
+Traced it back to silver layer data quality
+        ↓
+Fixed at the correct layer (silver)
+        ↓
+Reloaded gold layer
+        ↓
+Refreshed Power BI
+*/
+
 ---SQL DATA TROUBLESHOOTING QUERIES:
 ---data quality check
 SELECT 
