@@ -104,7 +104,8 @@ Analyzes financial performance and claims efficiency.
 
 ---
 ##### 📸 Dashboard Preview
-<img width="1440" height="900" alt="Screenshot 2026-04-29 at 2 22 03 PM" src="https://github.com/user-attachments/assets/af6bbdec-653a-4f0d-b901-05c22aa5d6a5" />
-<img width="1440" height="900" alt="Screenshot 2026-04-29 at 4 51 42 PM" src="https://github.com/user-attachments/assets/438ec57e-e8ad-4726-976e-0b157e765864" />
 <img width="1440" height="900" alt="Screenshot 2026-04-28 at 4 55 50 PM" src="https://github.com/user-attachments/assets/8f4e802d-307c-4f09-8b2b-c0d32f270a0f" />
+<img width="1440" height="900" alt="Screenshot 2026-04-29 at 4 51 42 PM" src="https://github.com/user-attachments/assets/438ec57e-e8ad-4726-976e-0b157e765864" />
+<img width="1440" height="900" alt="Screenshot 2026-04-29 at 2 22 03 PM" src="https://github.com/user-attachments/assets/af6bbdec-653a-4f0d-b901-05c22aa5d6a5" />
+
 
