@@ -7,7 +7,16 @@ Script Purpose:
 	  Run this script to re-define the DDL structure of 'bronze' Tables
 ===============================================================================
 */
-
+-- Drop old generic tables
+DROP TABLE IF EXISTS silver.claims;
+DROP TABLE IF EXISTS silver.encounters;
+DROP TABLE IF EXISTS silver.patients;
+DROP TABLE IF EXISTS silver.claim_lines;
+DROP TABLE IF EXISTS silver.eligibility;
+DROP TABLE IF EXISTS silver.providers;
+DROP TABLE IF EXISTS silver.diagnoses;
+DROP TABLE IF EXISTS silver.lab_tests;
+DROP TABLE IF EXISTS silver.medications;
 -- =============================================
 -- SILVER 1: patients
 -- Cleaned, typed, age calculated
