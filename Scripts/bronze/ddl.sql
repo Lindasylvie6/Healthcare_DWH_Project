@@ -16,8 +16,8 @@ DROP TABLE IF EXISTS bronze.claim_lines_raw;
 DROP TABLE IF EXISTS bronze.eligibility_raw;
 DROP TABLE IF EXISTS bronze.providers_raw;
 DROP TABLE IF EXISTS bronze.diagnoses_raw;
-DROP TABLE IF EXISTS bronze.lab_results_raw;
-DROP TABLE IF EXISTS bronze.pharmacy_raw;
+DROP TABLE IF EXISTS bronze.lab_tests_raw;
+DROP TABLE IF EXISTS bronze.medications_raw;
 
 -- =============================================
 -- BRONZE 1: patients.csv
